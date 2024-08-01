@@ -1,0 +1,28 @@
+{
+  "name": "mapis",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --declaration --outDir dist"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "transform",
+    "project",
+    "mapper",
+    "map"
+  ],
+  "author": "Marti Serra",
+  "license": "MIT",
+  "description": "Utility function to map a value to a function",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martiserra99/mapis"
+  },
+  "homepage": "https://github.com/martiserra99/mapis",
+  "devDependencies": {
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4"
+  }
+}
